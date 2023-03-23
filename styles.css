@@ -1,1 +1,84 @@
 /* your code here */
+* {
+  box-sizing: border-box;
+}
+body {
+/*   background-color: black; */
+  color: white;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* height: 50vh; */
+}
+.con1, .con2, footer{
+	background: black;
+}
+.con1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.con1_left {
+  padding: 5px 10px;
+}
+.con1_left span {
+  font-size: 30px;
+}
+.con1_right img {
+  /* display: inline; */
+  /* gap: 10px; */
+  width: 50px;
+  padding: 5px;
+  border-radius: 100px;
+}
+.con1_right img:last-child {
+  border-radius: none;
+}
+.con .con1_right {
+  /* flex: 1; */
+  /* display: flex; */
+  /* width: 1px; */
+  /* height: auto; */
+  justify-content: end;
+  gap: 20px;
+  align-items: center;
+  padding: 5px;
+  flex-direction: row;
+}
+.con2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: startr;
+}
+ul {
+  list-style: none;
+  color: #ddd;
+}
+li {
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  /* margin-bottom: 20px; */
+/*   border-bottom: 2px solid white; */
+}
+.half{
+	height: 2px;
+	width: 40%;
+	background: white;
+}
+/* a:after {
+  border-bottom: 1px white solid;
+} */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  height: 80px;
+  padding: 0 20px;
+}

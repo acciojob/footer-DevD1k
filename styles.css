@@ -55,6 +55,7 @@ body {
 ul {
   list-style: none;
   color: #ddd;
+	padding: 0 10px;
 }
 li {
   margin-bottom: 20px;
